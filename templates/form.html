@@ -1,0 +1,14 @@
+{% extends "template.html" %}
+
+{% block main %}
+<h2>Send us your recipe</h2>
+<form action="/form" method="post">
+    <label>Name of recipe: </label>
+    <input type="text" name="name" required placeholder="Write a recipe name: ">
+    <br>
+    <label>How to do: </label>
+    <textarea rows="5" cols="30" name="recipe" required placeholder="Write a recipe procedure: "></textarea>
+    <br>
+    <button type="submit">Send Recipe</button>
+</form>
+{% endblock %}

@@ -1,0 +1,16 @@
+https://www.softwaretestinghelp.com/getting-started-with-robot-framework-ride/
+
+#pip install robotframework
+#test -> python -m robot
+
+#pip install wxpython
+#pip install packaging
+
+#pip install robotframework-ride
+# test -> ride.py
+
+#pip install robotframework-seleniumlibrary
+
+#file->new project -> jako folder
+#test suites -> mytestproj -> new suite
+#v suitu vytvoret novej testcase
